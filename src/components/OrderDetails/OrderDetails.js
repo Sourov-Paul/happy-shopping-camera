@@ -19,7 +19,7 @@ const OrderDetails = (props) => {
   const {user}=useAuth()
 
 const onSubmit=(e)=>{
-    fetch('http://localhost:5000/orderDetails',{
+    fetch('https://floating-peak-83103.herokuapp.com/orderDetails',{
         method:'POST',
         headers:{
             'content-type':'application/json'

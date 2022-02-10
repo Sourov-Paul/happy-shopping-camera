@@ -14,7 +14,7 @@ const ControleOrders = () => {
     const [orderPerson, setOrderPerson] = useState([]);
 
     useEffect(()=>{
-        fetch("http://localhost:5000/orderDetails")
+        fetch("https://floating-peak-83103.herokuapp.com/orderDetails")
         .then(res=>res.json())
         .then(data=>setOrderPerson(data))
     },[ ])
@@ -22,7 +22,7 @@ const ControleOrders = () => {
 
     const handleDelete=id=>{
 
-        const url=`http://localhost:5000/orderDetails/${id}`
+        const url=`https://floating-peak-83103.herokuapp.com/orderDetails/${id}`
     
         fetch(url,{
             method:'DELETE'

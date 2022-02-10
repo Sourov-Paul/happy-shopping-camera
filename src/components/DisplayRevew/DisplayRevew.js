@@ -8,8 +8,8 @@ const DisplayRevew = () => {
         const[revews,setRevews]=useState([]);
 
         useEffect(()=>{
-            // fetch('http://localhost:5000/revew')
-            fetch('http://localhost:5000/revew')
+            // fetch('https://floating-peak-83103.herokuapp.com/revew')
+            fetch('https://floating-peak-83103.herokuapp.com/revew')
             .then(res=>res.json())
             .then(data=>setRevews(data))
         },[]);

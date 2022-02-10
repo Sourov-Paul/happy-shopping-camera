@@ -25,7 +25,7 @@ const AdminPost = () => {
     const img=imgRef.current.value;
     const newProduct={name,description,number,img};
 
-    fetch('http://localhost:5000/product',{
+    fetch('https://floating-peak-83103.herokuapp.com/product',{
         method:'POST',
         headers:{
             'content-type':'application/json'

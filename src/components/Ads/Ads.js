@@ -10,7 +10,7 @@ const Ads = () => {
               <div className="text-center">
                   <h2 className="queality2">Promotion</h2>
               </div>
-                <div className="col-sm-12 col-md12 col-lg-12"> <MyLineChart></MyLineChart> </div>
+                <div className="col-sm-12 col-md12 col-lg-12 m-auto"> <MyLineChart></MyLineChart> </div>
             </div>
           </div>
         </div>

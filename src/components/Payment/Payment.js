@@ -15,7 +15,7 @@ const Payment = () => {
     
     const [product,setProduct]=useState({})
     useEffect(()=>{
-        fetch(`http://localhost:5000/paymentInfo/${productId}`)
+        fetch(`https://floating-peak-83103.herokuapp.com/paymentInfo/${productId}`)
         .then(res=>res.json())
         .then(data=>setProduct(data))
     },[productId]);

@@ -19,7 +19,7 @@ const Explore = () => {
 
     useEffect(()=>{
 
-        const url=`http://localhost:5000/product`;
+        const url=`https://floating-peak-83103.herokuapp.com/product`;
         fetch(url)
         .then(res=>res.json())
         .then(data=>setAdminData(data))

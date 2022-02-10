@@ -21,7 +21,7 @@ const Revew = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    fetch("http://localhost:5000/revew", {
+    fetch("https://floating-peak-83103.herokuapp.com/revew", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

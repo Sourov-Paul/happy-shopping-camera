@@ -72,7 +72,7 @@ const CheckoutForm = ({product}) => {
                     last4:paymentMethod.card.last4,
                     transaction:paymentIntent.client_secret.slice('_secret')[0]
             }
-            const url=`http://localhost:5000/paymentInfo/${_id}`;
+            const url=`https://floating-peak-83103.herokuapp.com/paymentInfo/${_id}`;
                 fetch(url,{
                     method:'PUT',
                     headers:{
@@ -88,7 +88,7 @@ const CheckoutForm = ({product}) => {
 
 
     useEffect(()=>{
-      fetch('http://localhost:5000/create-payment-intent',{
+      fetch('https://floating-peak-83103.herokuapp.com/create-payment-intent',{
           method:'POST',
           headers:{
               'content-type':'application/json'

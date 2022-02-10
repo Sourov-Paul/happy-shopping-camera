@@ -11,7 +11,7 @@ const ConfirmOrder = () => {
     const[productDetails,setProductDetails]=useState({});
 
    useEffect(()=>{
-       fetch('http://localhost:5000/product')
+       fetch('https://floating-peak-83103.herokuapp.com/product')
        .then(res=>res.json())
        .then(data=>setDetails(data))
        .catch((error)=>{
