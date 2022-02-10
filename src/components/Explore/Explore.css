@@ -1,0 +1,31 @@
+/* google font  cdn*/
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Poiret+One&family=Poppins:ital@0;1&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+.main_container{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.col.product-item {
+    background: transparent;
+}
+
+.card-body.nre {
+    background: #02041be0;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Moo Lah Lah', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.card-body.nre:hover{
+    box-shadow: 0px 15px 20px #747877;
+}
+.main-col:hover{
+    box-shadow: 2px 2px 10px 10px#1e1f1c78;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 10px;
+}

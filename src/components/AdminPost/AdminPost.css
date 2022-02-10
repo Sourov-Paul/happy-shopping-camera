@@ -1,0 +1,37 @@
+.main-container.mb-5 {
+    background: linear-gradient(to bottom right,#ddf5af,#ddc1c6,#abc3c0);
+    height: 100vh;
+    border-radius: 10px;
+
+}
+
+
+
+
+form.form {
+    
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+input{
+    outline: none;
+    width: 40%;
+    margin:10px 0;
+    border: 1px solid rgb(207, 204, 204);
+    padding:5px 13px;
+}
+
+/* icons */
+i.fab.fa-product-hunt.product,i.fas.fa-comments.comment ,i.fas.fa-dollar-sign.price,i.fas.fa-images.photo{
+    color: #6362ca;
+    margin: 5px;
+}
+h2.text-center.mt-5 {
+    color: #6362ca;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 40px;
+}

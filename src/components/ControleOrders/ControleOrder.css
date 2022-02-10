@@ -1,0 +1,9 @@
+.delete-order-btn{
+    color: rgb(34, 31, 31);
+}
+.delete-order-btn:hover{
+    color: red;
+}
+.delete-order-btn:hover > .delete{
+    color: red;
+}

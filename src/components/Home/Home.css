@@ -1,0 +1,10 @@
+.verifyWarning{
+    background:rgb(10, 165, 87);
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    
+    margin: 0;
+    /* display: block; */
+    display: fixed;
+}

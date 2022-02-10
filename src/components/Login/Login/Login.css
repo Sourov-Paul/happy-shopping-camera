@@ -1,0 +1,15 @@
+.emails,.pass{
+    color:dodgerblue;
+    margin:0 8px 0px 0px;
+}
+.facebook{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.account,.newAccount{
+    color: rgb(71, 187, 255);
+    margin-right: 10px;
+}
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    margin-left: -9px !important;
+}

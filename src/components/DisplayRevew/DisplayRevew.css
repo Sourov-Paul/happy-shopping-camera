@@ -1,0 +1,26 @@
+.div2 {
+    padding: 20px;
+    border-bottom: 1px solid #dadada;
+    width: 62%;
+}
+h4.userName {
+    color: #1d8655;
+    margin: 0;
+}
+span.fas.fa-star.icon-color2 {
+    color: #ff7963;
+    
+}
+.userGmail2{
+    color: rgb(110, 109, 109);
+    font-weight: bold;
+}
+.comment-description{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+i.gmails.fas.fa-at {
+    color: #1a7e44;
+    font-size: 13px;
+}

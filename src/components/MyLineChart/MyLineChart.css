@@ -1,0 +1,13 @@
+@media only screen and (min-width: 400px) {
+    .chart1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .chart2{
+        display: none;
+    }
+}
+tspan {
+    font-size: 15px;
+}
