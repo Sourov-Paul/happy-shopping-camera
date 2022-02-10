@@ -4,9 +4,8 @@ import OrderDetails from '../OrderDetails/OrderDetails';
 import Header from './../Header/Header/Header';
 
 const ConfirmOrder = () => {
-
+    
     const {id}=useParams();
-
     const [details,setDetails]=useState([ ])
     const[productDetails,setProductDetails]=useState({});
 
